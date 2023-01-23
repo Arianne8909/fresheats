@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!--₦-->
+<html>
+<head>
+    <title>FRESH EATS|Login/Sign-up</title>
+    
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/10f7acea20.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="header" style="background-image: url(foods.jpg);">
+    <nav>
+        <a href="index.html"><img style="height: 50px ; width: 50px " src="fresheats.png" alt="logo"></a>
+        <div><h1>FRESH EATS</h1></div>
+        <div class="nav-links">
+            <ul>
+                <li><h1><a href="index.html">Home</a></h1></li>
+                <li><h1><a href="Products.html">Catalogue</a></h1></li>
+                <li><h1><a href="">Meal Plans</a></h1></li>
+                <li><h1><a href="about.html">About Us</a></h1></li>
+                <li><h1><a href="login.html">Login/Sign-up</a></h1></li>
+                <a href="" style="padding-right: 10px;"><i class="fa fa-shopping-basket" aria-hidden="true" style="color: black;"></i></a>
+            <ul>
+        </div>
+    </nav>
+    
+    <div id='login-form'class='login-page'>
+        <div class="form-box">
+            <div class='button-box'>
+                <div id='btn'></div>
+                <button type='button'onclick='login()'class='toggle-btn' style="color: white">Log In</button>
+                <button type='button'onclick='register()'class='toggle-btn' style="color: white">Register</button>
+            </div>
+            <form id='login' class='input-group-login'>
+                <input type='text'class='input-field'placeholder='Email Id' required >
+        <input type='password'class='input-field'placeholder='Enter Password' required>
+        <input type='checkbox'class='check-box'><span>Remember Password</span>
+        <button type='submit'class='submit-btn'>Log in</button>
+     </form>
+     <form id='register' class='input-group-register'>
+         <input type='text'class='input-field'placeholder='First Name' required>
+         <input type='text'class='input-field'placeholder='Last Name ' required>
+         <input type='email'class='input-field'placeholder='Email Id' required>
+         <input type='password'class='input-field'placeholder='Enter Password' required>
+         <input type='password'class='input-field'placeholder='Confirm Password'  required>
+         <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                <button type='submit'class='submit-btn'>Register</button>
+         </form>
+        </div>
+    </div>
+</div>
+
+<!----------------------FOOTER------------------------------->
+<footer class="footer">
+    <div class="container">
+        <div class="row" style="flex-wrap:nowrap">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var x=document.getElementById('login');
+    var y=document.getElementById('register');
+    var z=document.getElementById('btn');
+    function register()
+    {
+        x.style.left='-400px';
+        y.style.left='50px';
+        z.style.left='110px';
+    }
+    function login()
+    {
+        x.style.left='50px';
+        y.style.left='450px';
+        z.style.left='0px';
+    }
+</script>
+</body>
+</html>
