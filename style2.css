@@ -58,12 +58,12 @@ nav img {
     border-radius: 3px;
 	padding: 5px 5px;
     font-family: 'Slabo 27px', serif;
+	transition: 0.5s ease;
 }
 
 .nav-links ul li a:hover {
     background: rgba(114, 114, 114, 0.455);
     color: black;
-    transition: 0.5s;
 }
 
 .bt {
@@ -114,13 +114,13 @@ nav img {
     font-size: 30px;
     font-family: 'Slabo 27px', serif;
     border: 3px solid white;
+	transition: 0.5s ease;
 }
 
 .btn1 a:hover {
     border: 3px solid white;
     border-style: double;
     background: green;
-    transition: 0.6s;
 }
 
 .btn2 {
@@ -133,6 +133,7 @@ nav img {
     bottom: 50%;
     text-align: right;
     transform: translateX(50px);
+	
 }
 
 .btn2 a {
@@ -146,13 +147,13 @@ nav img {
     font-size: 30px;
     font-family: 'Slabo 27px', serif;
     border: 3px solid white;
+	transition: 0.5s ease;
 }
 
 .btn2 a:hover {
     border: 3px solid white;
     border-style: double;
     background: green;
-    transition: 0.6s;
 }
 
 .gd {
@@ -177,13 +178,14 @@ nav img {
     font-size: 30px;
     font-family: 'Slabo 27px', serif;
     border: 3px solid white;
+	transition: 0.5s ease;
 }
 
 .gd a:hover {
     border: 3px solid white;
     border-style: double;
     background: black;
-    transition: 0.6s;
+   
 }
 
 
@@ -245,13 +247,14 @@ nav img {
     font-size: 30px;
     font-family: 'Slabo 27px', serif;
     border: 3px solid rgb(0, 0, 0);
+	transition: 0.5s ease;
 }
 
 .btn3 a:hover {
     border: 3px solid rgb(0, 0, 0);
     border-style: double;
     background: green;
-    transition: 0.6s;
+
 }
 
 .sg{
@@ -271,12 +274,13 @@ nav img {
 .colsg img {
     height: 200px;
     width: 200px;
+	transition: 0.5s ease;
 }
 
 .colsg img:hover {
     width: 225px;
     height: 225px;
-    transition: 0.6s;
+ 
 }
 
 .c2 {
@@ -471,4 +475,5 @@ span
     text-align: left;
     transform: translateX(50px);
     font-family: 'Slabo 27px', serif;
+
 }
